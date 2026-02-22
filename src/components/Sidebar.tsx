@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Users, BarChart2, FileText, Settings } from 'lucide-react';
+import { Home, Users, BarChart2, FileText } from 'lucide-react';
 
 export default function Sidebar() {
     const pathname = usePathname();
